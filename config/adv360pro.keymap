@@ -20,11 +20,11 @@
 
         layer_1 {
             bindings = <
-&kp  &kp  &kp LC(DOWN)  &kp LC(UP_ARROW)  &kp LA(LC(LG(N)))  &kp LS(LG(SLASH))  &kp LG(LS(M))                                  &kp  &kp  &kp  &kp  &kp  &kp  &kp
-&kp  &kp  &kp           &kp               &kp                &kp                &none                                          &kp  &kp  &kp  &kp  &kp  &kp  &kp
-&kp  &kp  &kp           &kp               &kp                &kp                &kp                 &kp  &kp    &kp  &kp       &kp  &kp  &kp  &kp  &kp  &kp  &kp
-&kp  &kp  &kp           &kp               &kp                &kp                                         &kp    &kp                 &kp  &kp  &kp  &kp  &kp  &kp
-&kp  &kp  &kp           &kp               &kp                                                  &kp  &kp  &kp    &kp  &kp  &kp            &kp  &kp  &kp  &kp  &kp
+&trans  &trans  &kp LC(DOWN)  &kp LC(UP_ARROW)  &kp LA(LC(LG(N)))  &kp LS(LG(SLASH))  &kp LG(LS(M))                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans            &trans             &trans             &none                                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans            &trans             &trans             &trans                 &trans  &trans    &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans            &trans             &trans                                            &trans    &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans            &trans                                               &trans  &trans  &trans    &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
