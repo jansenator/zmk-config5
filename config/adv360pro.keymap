@@ -39,8 +39,8 @@
 &trans  &trans         &kp LC(DOWN)            &kp LC(UP_ARROW)  &kp LA(LC(LG(N)))      &kp LS(LG(SLASH))  &none                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &kp LG(LS(GRAVE))       &kp UP_ARROW      &kp LG(GRAVE)          &kp C_VOL_UP       &none                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LG(PLUS)   &kp LEFT_ARROW          &kp DOWN_ARROW    &kp RIGHT_ARROW        &kp C_VOL_DN       &none          &trans  &trans    &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(MINUS)  &kp LA(LG(LEFT_ARROW))  &kp LA(LS(N))     &kp LA(LG(RIGHT))      &kp LA(LG(SPACE))                         &trans    &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &kp LG(LEFT_BRACKET)    &kp LA(D)         &kp LG(RIGHT_BRACKET)                            &trans  &trans  &trans    &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(MINUS)  &kp LA(LG(LEFT_ARROW))  &kp LA(LS(A))     &kp LA(LG(RIGHT))      &kp LG(LC(SPACE))                         &trans    &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &kp LG(LEFT_BRACKET)    &kp LA(LS(D))     &kp LG(RIGHT_BRACKET)                            &trans  &trans  &trans    &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
