@@ -37,8 +37,8 @@
         layer_1 {
             bindings = <
 &trans  &trans         &kp LC(DOWN)            &kp LC(UP_ARROW)  &kp LA(LC(LG(N)))      &kp LS(LG(SLASH))  &none                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &kp LG(LS(GRAVE))       &kp UP_ARROW      &kp LG(GRAVE)          &kp F11            &none                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(PLUS)   &kp LEFT_ARROW          &kp DOWN_ARROW    &kp RIGHT_ARROW        &kp F12            &none          &trans  &trans    &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &kp LG(LS(GRAVE))       &kp UP_ARROW      &kp LG(GRAVE)          &kp C_VOL_UP       &none                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(PLUS)   &kp LEFT_ARROW          &kp DOWN_ARROW    &kp RIGHT_ARROW        &kp C_VOL_DN       &none          &trans  &trans    &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LG(MINUS)  &kp LA(LG(LEFT_ARROW))  &kp LA(LS(N))     &kp LA(LG(RIGHT))      &kp LA(LG(SPACE))                         &trans    &trans                          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &kp LG(LEFT_BRACKET)    &kp LA(D)         &kp LG(RIGHT_BRACKET)                            &trans  &trans  &trans    &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
             >;
@@ -46,11 +46,11 @@
 
         fn {
             bindings = <
-&none   &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &none                                                    &none  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &none
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                                    &none  &trans  &trans  &trans  &trans  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none          &trans  &trans    &trans  &trans          &none  &trans  &trans  &trans  &trans  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                         &trans    &trans                         &trans  &trans  &trans  &trans  &trans   &trans
-&trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans    &trans  &trans  &trans                 &trans  &trans  &trans  &trans   &trans
+&none   &kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &none                                                    &none  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &none
+&trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &none                                                    &none  &kp F16  &kp F17  &kp F18  &kp F19  &kp F20  &trans
+&trans  &trans   &trans   &trans   &trans   &trans   &none          &trans  &trans    &trans  &trans          &none  &trans   &trans   &trans   &trans   &trans   &trans
+&trans  &trans   &trans   &trans   &trans   &trans                          &trans    &trans                         &trans   &trans   &trans   &trans   &trans   &trans
+&trans  &trans   &trans   &trans   &trans                   &trans  &trans  &trans    &trans  &trans  &trans                  &trans   &trans   &trans   &trans   &trans
             >;
         };
 
