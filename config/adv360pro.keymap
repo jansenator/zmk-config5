@@ -35,11 +35,11 @@
 
         layer_1 {
             bindings = <
-&trans  &kp END        &kp LC(DOWN)          &kp LC(UP_ARROW)  &kp LA(LC(LG(N)))      &kp LS(LG(SLASH))  &none                                                               &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp HOME       &kp LG(LS(GRAVE))     &kp UP_ARROW      &kp LG(GRAVE)          &kp C_VOL_UP       &none                                                               &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(PLUS)   &kp LEFT_ARROW        &kp DOWN_ARROW    &kp RIGHT_ARROW        &kp C_VOL_DN       &kp C_PLAY_PAUSE          &trans  &trans    &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(Z)      &kp LG(X)             &kp LG(A)         &kp LG(V)              &kp LG(LC(SPACE))                                    &trans    &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LS(LC(C))  &kp LG(LEFT_BRACKET)  &kp LA(LS(D))     &kp LG(RIGHT_BRACKET)                                       &trans  &trans  &trans    &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &kp END        &kp LC(DOWN)            &kp LC(UP_ARROW)  &kp LA(LC(LG(N)))        &kp LS(LG(SLASH))  &none                                                               &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp HOME       &kp LG(LS(GRAVE))       &kp UP_ARROW      &kp LG(GRAVE)            &kp C_VOL_UP       &none                                                               &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(PLUS)   &kp LEFT_ARROW          &kp DOWN_ARROW    &kp RIGHT_ARROW          &kp C_VOL_DN       &kp C_PLAY_PAUSE          &trans  &trans    &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(MINUS)  &kp LG(LA(LEFT_ARROW))  &kp LG(LC(A))     &kp LG(LA(RIGHT_ARROW))  &kp LG(LC(SPACE))                                    &trans    &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(LC(C))  &kp LG(LEFT_BRACKET)    &kp LS(LG(L))     &kp LG(RIGHT_BRACKET)                                         &trans  &trans  &trans    &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
